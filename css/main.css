@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    width: 1200px;
+    height: 200px;
+    background: tomato;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+}
+
+.container__menu {
+    display: flex;
+    margin-right: auto;
+}
